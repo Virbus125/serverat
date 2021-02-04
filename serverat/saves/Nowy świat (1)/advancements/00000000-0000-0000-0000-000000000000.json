@@ -1,0 +1,131 @@
+{
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2021-02-04 09:56:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2021-02-04 09:56:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2021-02-04 09:52:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2021-02-04 09:56:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_hoe": "2021-02-04 09:55:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2021-02-04 09:55:22 +0100"
+    },
+    "done": true
+  },
+  "dungeonsmod:dungeons/king": {
+    "criteria": {
+      "kill_king": "2021-02-04 09:55:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:zombie": "2021-02-04 09:55:22 +0100"
+    },
+    "done": false
+  },
+  "mutantbeasts:root": {
+    "criteria": {
+      "killed_by_something": "2021-02-04 09:53:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2021-02-04 09:56:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2021-02-04 09:56:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "enchanted_golden_apple": "2021-02-04 09:56:34 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2021-02-04 09:56:29 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2021-02-04 09:53:04 +0100"
+    },
+    "done": true
+  },
+  "simpleores:main/onyx_sword": {
+    "criteria": {
+      "got_onyx_sword": "2021-02-04 09:54:34 +0100"
+    },
+    "done": true
+  },
+  "simpleores:main/onyx_bow": {
+    "criteria": {
+      "got_onyx_bow": "2021-02-04 09:54:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2021-02-04 09:56:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2021-02-04 09:54:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2021-02-04 09:56:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_hoe": "2021-02-04 09:55:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2021-02-04 09:50:29 +0100",
+      "minecraft:river": "2021-02-04 09:51:46 +0100",
+      "minecraft:plains": "2021-02-04 09:47:26 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 2580
+}

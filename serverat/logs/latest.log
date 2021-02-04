@@ -1,0 +1,967 @@
+[04lut2021 09:40:43.963] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, umysmine, --version, serverat, --gameDir, C:\Users\User\AppData\Roaming\.minecraft\versions\serverat, --assetsDir, C:\Users\User\AppData\Roaming\.minecraft\assets, --assetIndex, 1.16, --uuid, 00000000-0000-0000-0000-000000000000, --accessToken, ????????, --userType, legacy, --versionType, release, --width, 925, --height, 530, --launchTarget, fmlclient, --fml.forgeVersion, 34.1.41, --fml.mcVersion, 1.16.3, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20201025.185957]
+[04lut2021 09:40:43.967] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.6+85+master.325de55 starting: java version 1.8.0_51 by Oracle Corporation
+[04lut2021 09:40:43.985] [main/WARN] [cpw.mods.modlauncher.SecureJarHandler/]: LEGACY JDK DETECTED, SECURED JAR HANDLING DISABLED
+[04lut2021 09:40:44.206] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
+[04lut2021 09:40:44.208] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: C:\Users\User\AppData\Roaming\.minecraft\versions\serverat\mods\OptiFine-1.16.3_HD_U_G5.jar
+[04lut2021 09:40:44.210] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
+[04lut2021 09:40:44.447] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[04lut2021 09:40:44.548] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/User/AppData/Roaming/.minecraft/libraries/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar Service=ModLauncher Env=CLIENT
+[04lut2021 09:40:44.561] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
+[04lut2021 09:40:44.650] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file C:\Users\User\AppData\Roaming\.minecraft\versions\serverat\config\fml.toml is not correct. Correcting
+[04lut2021 09:40:44.659] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
+[04lut2021 09:40:48.346] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
+[04lut2021 09:40:48.391] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 302
+[04lut2021 09:40:49.435] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
+[04lut2021 09:40:49.522] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlclient' with arguments [--version, serverat, --gameDir, C:\Users\User\AppData\Roaming\.minecraft\versions\serverat, --assetsDir, C:\Users\User\AppData\Roaming\.minecraft\assets, --uuid, 00000000-0000-0000-0000-000000000000, --username, umysmine, --assetIndex, 1.16, --accessToken, ????????, --userType, legacy, --versionType, release, --width, 925, --height, 530]
+[04lut2021 09:41:06.917] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[04lut2021 09:41:06.974] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: umysmine
+[04lut2021 09:41:07.368] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Class not present: net.minecraft.launchwrapper.Launch
+[04lut2021 09:41:07.382] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[04lut2021 09:41:07.710] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] 
+[04lut2021 09:41:07.732] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] OptiFine_1.16.3_HD_U_G5
+[04lut2021 09:41:07.737] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Build: 20201106-202857
+[04lut2021 09:41:07.758] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] OS: Windows 8.1 (amd64) version 6.3
+[04lut2021 09:41:07.758] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Java: 1.8.0_51, Oracle Corporation
+[04lut2021 09:41:07.759] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[04lut2021 09:41:07.760] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] LWJGL: 3.3.0 Win32 WGL EGL OSMesa VisualC DLL
+[04lut2021 09:41:07.762] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] OpenGL: AMD Radeon R7 200 Series, version 4.6.14736 Compatibility Profile Context 20.9.1 27.20.12029.1000, ATI Technologies Inc.
+[04lut2021 09:41:07.763] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] OpenGL Version: 4.6.14736
+[04lut2021 09:41:07.764] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] OpenGL Fancy fog: Not available (GL_NV_fog_distance)
+[04lut2021 09:41:07.936] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Maximum texture size: 16384x16384
+[04lut2021 09:41:07.957] [VersionCheck/INFO] [net.optifine.Config/]: [OptiFine] Checking for new version
+[04lut2021 09:41:08.008] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] OpenGL Version: 4.6.14736 Compatibility Profile Context 20.9.1 27.20.12029.1000
+[04lut2021 09:41:08.009] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Vendor:  ATI Technologies Inc.
+[04lut2021 09:41:08.009] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Renderer: AMD Radeon R7 200 Series
+[04lut2021 09:41:08.010] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[04lut2021 09:41:08.010] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[04lut2021 09:41:08.010] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[04lut2021 09:41:08.010] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[04lut2021 09:41:08.010] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Load shaders configuration.
+[04lut2021 09:41:08.012] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Save shaders configuration.
+[04lut2021 09:41:08.025] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] No shaderpack loaded.
+[04lut2021 09:41:08.058] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.Loader
+[04lut2021 09:41:08.674] [VersionCheck/INFO] [net.optifine.Config/]: [OptiFine] Version found: G5
+[04lut2021 09:41:08.904] [modloading-worker-3/INFO] [mod.alexndr.simplecorelib.SimpleCoreLib/]: Hello from SimpleCoreLib!
+[04lut2021 09:41:09.168] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 34.1.41, for MC 1.16.3 with MCP 20201025.185957
+[04lut2021 09:41:09.169] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v34.1.41 Initialized
+[04lut2021 09:41:09.199] [modloading-worker-1/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dungeonsmod:anthermite
+[04lut2021 09:41:09.246] [modloading-worker-1/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dungeonsmod:mimic
+[04lut2021 09:41:09.256] [modloading-worker-1/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dungeonsmod:piranha
+[04lut2021 09:41:09.260] [modloading-worker-1/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dungeonsmod:rogue
+[04lut2021 09:41:09.267] [modloading-worker-1/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dungeonsmod:slimond
+[04lut2021 09:41:09.273] [modloading-worker-1/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dungeonsmod:haunter
+[04lut2021 09:41:09.275] [modloading-worker-1/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dungeonsmod:lordskeleton
+[04lut2021 09:41:09.277] [modloading-worker-1/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dungeonsmod:deadhound
+[04lut2021 09:41:09.277] [modloading-worker-0/INFO] [mod.alexndr.simpleores.SimpleOres/]: Hello from Simple Ores!
+[04lut2021 09:41:09.279] [modloading-worker-1/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dungeonsmod:crow
+[04lut2021 09:41:09.281] [modloading-worker-1/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dungeonsmod:notehead
+[04lut2021 09:41:09.304] [modloading-worker-1/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dungeonsmod:winterhunter
+[04lut2021 09:41:09.406] [modloading-worker-1/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dungeonsmod:pice
+[04lut2021 09:41:09.409] [modloading-worker-1/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dungeonsmod:crawler
+[04lut2021 09:41:09.411] [modloading-worker-1/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dungeonsmod:deserted
+[04lut2021 09:41:09.416] [modloading-worker-1/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dungeonsmod:ironslime
+[04lut2021 09:41:09.419] [modloading-worker-1/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dungeonsmod:king
+[04lut2021 09:41:09.422] [modloading-worker-1/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dungeonsmod:kraken
+[04lut2021 09:41:09.428] [modloading-worker-1/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dungeonsmod:sun
+[04lut2021 09:41:09.430] [modloading-worker-1/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dungeonsmod:voidmaster
+[04lut2021 09:41:09.431] [modloading-worker-1/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dungeonsmod:guard
+[04lut2021 09:41:09.432] [modloading-worker-1/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dungeonsmod:scientist
+[04lut2021 09:41:09.462] [modloading-worker-1/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dungeonsmod:slimewolf
+[04lut2021 09:41:09.997] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for mutantbeasts:creeper_minion
+[04lut2021 09:41:10.007] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for mutantbeasts:mutant_creeper
+[04lut2021 09:41:10.065] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for mutantbeasts:mutant_enderman
+[04lut2021 09:41:10.073] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for mutantbeasts:mutant_skeleton
+[04lut2021 09:41:10.081] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for mutantbeasts:mutant_snow_golem
+[04lut2021 09:41:10.092] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for mutantbeasts:mutant_zombie
+[04lut2021 09:41:10.099] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for mutantbeasts:spider_pig
+[04lut2021 09:41:10.381] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for mutantbeasts:body_part
+[04lut2021 09:41:10.384] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for mutantbeasts:chemical_x
+[04lut2021 09:41:10.385] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for mutantbeasts:creeper_minion_egg
+[04lut2021 09:41:10.388] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for mutantbeasts:endersoul_clone
+[04lut2021 09:41:10.390] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for mutantbeasts:endersoul_fragment
+[04lut2021 09:41:10.394] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for mutantbeasts:skull_spirit
+[04lut2021 09:41:10.396] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for mutantbeasts:throwable_block
+[04lut2021 09:41:10.398] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for car:car
+[04lut2021 09:41:10.400] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for gravestone:player_ghost
+[04lut2021 09:41:10.468] [Render thread/INFO] [com.dainxt.dungeonsmod.DungeonsMod/]: Register Point of Interest private static net.minecraft.village.PointOfInterestType net.minecraft.village.PointOfInterestType.func_221052_a(net.minecraft.village.PointOfInterestType)
+[04lut2021 09:41:10.560] [Render thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `silents_mechanisms` for name `crushing`, expected `simpleores`. This could be a intended override, but in most cases indicates a broken mod.
+[04lut2021 09:41:12.010] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[04lut2021 09:41:12.161] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[04lut2021 09:41:12.177] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\User\AppData\Roaming\.minecraft\versions\serverat\config\backtools.toml is not correct. Correcting
+[04lut2021 09:41:12.179] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key clientOnly was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:12.180] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key clientOnly.disabledTools was corrected from null to []
+[04lut2021 09:41:12.180] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key clientOnly.toolOrientation was corrected from null to [net.minecraft.item.ToolItem:180, net.minecraft.item.HoeItem:180, net.minecraft.item.FishingRodItem:180, net.minecraft.item.TridentItem:180, net.minecraft.item.ShootableItem:90]
+[04lut2021 09:41:12.180] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key clientOnly.nbtCleaner was corrected from null to [Damage, Charged, ChargedProjectiles]
+[04lut2021 09:41:12.183] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] *** Reloading textures ***
+[04lut2021 09:41:12.186] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Resource packs: Mod Resources
+[04lut2021 09:41:12.186] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\User\AppData\Roaming\.minecraft\versions\serverat\config\jei-client.toml is not correct. Correcting
+[04lut2021 09:41:12.187] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:12.187] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced.DebugMode was corrected from null to false
+[04lut2021 09:41:12.187] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced.CenterSearch was corrected from null to false
+[04lut2021 09:41:12.187] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced.LowMemorySlowSearchEnabled was corrected from null to false
+[04lut2021 09:41:12.187] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced.GiveMode was corrected from null to MOUSE_PICKUP
+[04lut2021 09:41:12.188] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced.MaxColumns was corrected from null to 100
+[04lut2021 09:41:12.188] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced.RecipeGuiHeight was corrected from null to 350
+[04lut2021 09:41:12.189] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key colors was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:12.189] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key colors.SearchColors was corrected from null to [White:EEEEEE, LightBlue:7492cc, Cyan:00EEEE, Blue:2222dd, LapisBlue:25418b, Teal:008080, Yellow:cacb58, GoldenYellow:EED700, Orange:d97634, Pink:D1899D, HotPink:FC0FC0, Magenta:b24bbb, Purple:813eb9, JadedPurple:43324f, EvilPurple:2e1649, Lavender:B57EDC, Indigo:480082, Sand:dbd3a0, Tan:bb9b63, LightBrown:A0522D, Brown:634b33, DarkBrown:3a2d13, LimeGreen:43b239, SlimeGreen:83cb73, Green:008000, DarkGreen:224d22, GrassGreen:548049, Red:963430, BrickRed:b0604b, NetherBrick:2a1516, Redstone:ce3e36, Black:181515, CharcoalGray:464646, IronGray:646464, Gray:808080, Silver:C0C0C0]
+[04lut2021 09:41:12.190] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] EmissiveTextures: Loading optifine/emissive.properties
+[04lut2021 09:41:12.190] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sorting was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:12.191] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sorting.IngredientSortStages was corrected from null to [MOD_NAME, INGREDIENT_TYPE, CREATIVE_MENU]
+[04lut2021 09:41:12.192] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key search was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:12.192] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key search.ModNameSearchMode was corrected from null to REQUIRE_PREFIX
+[04lut2021 09:41:12.192] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key search.TooltipSearchMode was corrected from null to ENABLED
+[04lut2021 09:41:12.192] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key search.TagSearchMode was corrected from null to REQUIRE_PREFIX
+[04lut2021 09:41:12.192] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key search.CreativeTabSearchMode was corrected from null to DISABLED
+[04lut2021 09:41:12.193] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key search.ColorSearchMode was corrected from null to DISABLED
+[04lut2021 09:41:12.193] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key search.ResourceIdSearchMode was corrected from null to DISABLED
+[04lut2021 09:41:12.193] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key search.SearchAdvancedTooltips was corrected from null to false
+[04lut2021 09:41:12.194] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modname was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:12.194] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modname.ModNameFormat was corrected from null to blue italic
+[04lut2021 09:41:12.213] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\User\AppData\Roaming\.minecraft\versions\serverat\config\forge-client.toml is not correct. Correcting
+[04lut2021 09:41:12.214] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:12.214] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.zoomInMissingModelTextInGui was corrected from null to false
+[04lut2021 09:41:12.214] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.forgeCloudsEnabled was corrected from null to true
+[04lut2021 09:41:12.214] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.disableStairSlabCulling was corrected from null to false
+[04lut2021 09:41:12.215] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.alwaysSetupTerrainOffThread was corrected from null to false
+[04lut2021 09:41:12.215] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.forgeLightPipelineEnabled was corrected from null to true
+[04lut2021 09:41:12.215] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.experimentalForgeLightPipelineEnabled was corrected from null to false
+[04lut2021 09:41:12.215] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.selectiveResourceReloadEnabled was corrected from null to true
+[04lut2021 09:41:12.215] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showLoadWarnings was corrected from null to true
+[04lut2021 09:41:12.215] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.useCombinedDepthStencilAttachment was corrected from null to false
+[04lut2021 09:41:12.298] [Render thread/INFO] [net.optifine.reflect.Reflector/]: [OptiFine] *** Reflector Forge ***
+[04lut2021 09:41:12.300] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\User\AppData\Roaming\.minecraft\versions\serverat\config\ichunutil.toml is not correct. Correcting
+[04lut2021 09:41:12.301] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key bns was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:12.301] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key bns.guiStyleMinecraft was corrected from null to false
+[04lut2021 09:41:12.301] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key bns.guiDockPadding was corrected from null to 0
+[04lut2021 09:41:12.302] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key bns.guiTooltipCooldown was corrected from null to 20
+[04lut2021 09:41:12.302] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key bns.guiDockBorder was corrected from null to 8
+[04lut2021 09:41:12.302] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key bns.guiDoubleClickSpeed was corrected from null to 10
+[04lut2021 09:41:12.302] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key bns.guiDefaultTheme was corrected from null to default
+[04lut2021 09:41:12.303] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key clientOnly was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:12.303] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key clientOnly.easterEgg was corrected from null to true
+[04lut2021 09:41:12.303] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key clientOnly.buttonOptionsShiftOpensMods was corrected from null to true
+[04lut2021 09:41:12.305] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key headTracking was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:12.305] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key headTracking.aggressiveHeadTracking was corrected from null to 1
+[04lut2021 09:41:12.305] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key headTracking.horseEasterEgg was corrected from null to true
+[04lut2021 09:41:12.311] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[04lut2021 09:41:12.383] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Field not present: net.minecraftforge.client.model.pipeline.LightUtil.itemConsumer
+[04lut2021 09:41:12.383] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Field not present: net.minecraftforge.client.model.pipeline.LightUtil.tessellator
+[04lut2021 09:41:12.389] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.ModContainer
+[04lut2021 09:41:12.416] [Render thread/INFO] [net.optifine.reflect.Reflector/]: [OptiFine] *** Reflector Vanilla ***
+[04lut2021 09:41:12.536] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\User\AppData\Roaming\.minecraft\versions\serverat\config\neat-client.toml is not correct. Correcting
+[04lut2021 09:41:12.536] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:12.537] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Max Distance was corrected from null to 24
+[04lut2021 09:41:12.537] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Render with Interface Disabled (F1) was corrected from null to false
+[04lut2021 09:41:12.537] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Height Above Mob was corrected from null to 0.6
+[04lut2021 09:41:12.537] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Draw Background was corrected from null to true
+[04lut2021 09:41:12.537] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Background Padding was corrected from null to 2
+[04lut2021 09:41:12.537] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Background Height was corrected from null to 6
+[04lut2021 09:41:12.537] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Health Bar Height was corrected from null to 4
+[04lut2021 09:41:12.537] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Plate Size was corrected from null to 25
+[04lut2021 09:41:12.538] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Plate Size (Boss) was corrected from null to 50
+[04lut2021 09:41:12.538] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Show Attributes was corrected from null to true
+[04lut2021 09:41:12.538] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Show Armor was corrected from null to true
+[04lut2021 09:41:12.538] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Group Armor (condense 5 iron icons into 1 diamond icon) was corrected from null to true
+[04lut2021 09:41:12.538] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Color Health Bar by Type (instead of health percentage) was corrected from null to false
+[04lut2021 09:41:12.538] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.HP Text Height was corrected from null to 14
+[04lut2021 09:41:12.538] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Show Max HP was corrected from null to true
+[04lut2021 09:41:12.539] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Show Current HP was corrected from null to true
+[04lut2021 09:41:12.539] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Show HP Percentage was corrected from null to true
+[04lut2021 09:41:12.539] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Display on Players was corrected from null to true
+[04lut2021 09:41:12.539] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Display on Bosses was corrected from null to true
+[04lut2021 09:41:12.539] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Only show the health bar for the entity looked at was corrected from null to false
+[04lut2021 09:41:12.539] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Show entities with full health was corrected from null to true
+[04lut2021 09:41:12.539] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Show Debug Info with F3 was corrected from null to true
+[04lut2021 09:41:12.539] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Blacklist was corrected from null to [minecraft:shulker, minecraft:armor_stand, minecraft:cod, minecraft:salmon, minecraft:pufferfish, minecraft:tropical_fish]
+[04lut2021 09:41:12.587] [Worker-Main-4/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[04lut2021 09:41:12.973] [Worker-Main-6/WARN] [net.minecraft.client.audio.SoundHandler/]: File dungeonsmod:sounds/records/disc_1.ogg does not exist, cannot add it to event dungeonsmod:music_disc.artificial_inteligence
+[04lut2021 09:41:13.005] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\User\AppData\Roaming\.minecraft\versions\serverat\config\gravestone-client.toml is not correct. Correcting
+[04lut2021 09:41:13.006] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key render_skull was corrected from null to true
+[04lut2021 09:41:13.008] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key grave_text_color was corrected from null to FFFFFF
+[04lut2021 09:41:13.012] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\User\AppData\Roaming\.minecraft\versions\serverat\config\car-client.toml is not correct. Correcting
+[04lut2021 09:41:13.013] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.013] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.third_person_when_enter_car was corrected from null to true
+[04lut2021 09:41:13.013] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.temp_farenheit was corrected from null to false
+[04lut2021 09:41:13.013] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.car_volume was corrected from null to 0.25
+[04lut2021 09:41:13.018] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\User\AppData\Roaming\.minecraft\versions\serverat\config\dungeonsmod-common.toml is not correct. Correcting
+[04lut2021 09:41:13.019] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.019] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Ghost Players was corrected from null to 20
+[04lut2021 09:41:13.021] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.021] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.Home Gem Cooldown was corrected from null to 18000
+[04lut2021 09:41:13.021] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.Home Gem Cast Time was corrected from null to 200
+[04lut2021 09:41:13.021] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.Sun Overdrive Cooldown was corrected from null to 144000
+[04lut2021 09:41:13.021] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.Sun Overdrive Cast Time was corrected from null to 200
+[04lut2021 09:41:13.022] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobs was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.022] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobs.anthermite was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.022] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobs.anthermite.Anthermite Weight was corrected from null to 2
+[04lut2021 09:41:13.022] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobs.mimic was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.022] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobs.mimic.Mimic Weight was corrected from null to 5
+[04lut2021 09:41:13.023] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobs.piranha was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.023] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobs.piranha.Piranha Weight was corrected from null to 5
+[04lut2021 09:41:13.023] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobs.rogue was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.023] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobs.rogue.Rogue Weight was corrected from null to 1
+[04lut2021 09:41:13.023] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobs.slimond was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.023] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobs.slimond.Slimond Weight was corrected from null to 1
+[04lut2021 09:41:13.023] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobs.haunter was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.023] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobs.haunter.Haunter Weight was corrected from null to 100
+[04lut2021 09:41:13.023] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobs.notehead was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.024] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobs.notehead.Note Head Weight was corrected from null to 1
+[04lut2021 09:41:13.024] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobs.crow was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.024] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobs.crow.Crow Weight was corrected from null to 10
+[04lut2021 09:41:13.024] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobs.blacklisted-biomes was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.024] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobs.blacklisted-biomes.Blacklisted Biomes was corrected from null to [minecraft:modified_jungle_edge]
+[04lut2021 09:41:13.026] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.027] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_chapel was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.027] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_chapel.Spacing was corrected from null to 32
+[04lut2021 09:41:13.030] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_chapel.Separation was corrected from null to 8
+[04lut2021 09:41:13.030] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_chapel.Seed Modifier was corrected from null to 31632
+[04lut2021 09:41:13.030] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_chapel.Spawing Chance was corrected from null to 1
+[04lut2021 09:41:13.030] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_camp was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.030] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_camp.Spacing was corrected from null to 32
+[04lut2021 09:41:13.030] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_camp.Separation was corrected from null to 8
+[04lut2021 09:41:13.031] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_camp.Seed Modifier was corrected from null to 14357617
+[04lut2021 09:41:13.031] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_camp.Spawing Chance was corrected from null to 1
+[04lut2021 09:41:13.031] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_house was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.031] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_house.Spacing was corrected from null to 80
+[04lut2021 09:41:13.031] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_house.Separation was corrected from null to 20
+[04lut2021 09:41:13.031] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_house.Seed Modifier was corrected from null to 9326560
+[04lut2021 09:41:13.031] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_house.Spawing Chance was corrected from null to 1
+[04lut2021 09:41:13.031] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_iron_mines was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.031] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_iron_mines.Spacing was corrected from null to 80
+[04lut2021 09:41:13.032] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_iron_mines.Separation was corrected from null to 20
+[04lut2021 09:41:13.032] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_iron_mines.Seed Modifier was corrected from null to 9326560
+[04lut2021 09:41:13.032] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_iron_mines.Spawing Chance was corrected from null to 1
+[04lut2021 09:41:13.032] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_ship was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.032] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_ship.Spacing was corrected from null to 80
+[04lut2021 09:41:13.032] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_ship.Separation was corrected from null to 20
+[04lut2021 09:41:13.032] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_ship.Seed Modifier was corrected from null to 1788430
+[04lut2021 09:41:13.032] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_ship.Spawing Chance was corrected from null to 1
+[04lut2021 09:41:13.032] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_castle was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.032] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_castle.Spacing was corrected from null to 80
+[04lut2021 09:41:13.032] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_castle.Separation was corrected from null to 20
+[04lut2021 09:41:13.032] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_castle.Seed Modifier was corrected from null to 5284629
+[04lut2021 09:41:13.033] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_castle.Spawing Chance was corrected from null to 1
+[04lut2021 09:41:13.033] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_lab was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.034] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_lab.Spacing was corrected from null to 80
+[04lut2021 09:41:13.034] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_lab.Separation was corrected from null to 20
+[04lut2021 09:41:13.034] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_lab.Seed Modifier was corrected from null to 3241280
+[04lut2021 09:41:13.034] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_lab.Spawing Chance was corrected from null to 1
+[04lut2021 09:41:13.034] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_catacombs was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.034] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_catacombs.Spacing was corrected from null to 80
+[04lut2021 09:41:13.034] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_catacombs.Separation was corrected from null to 20
+[04lut2021 09:41:13.034] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_catacombs.Seed Modifier was corrected from null to 3252381
+[04lut2021 09:41:13.035] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_catacombs.Spawing Chance was corrected from null to 1
+[04lut2021 09:41:13.035] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_origin was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.035] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_origin.Spacing was corrected from null to 80
+[04lut2021 09:41:13.035] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_origin.Separation was corrected from null to 20
+[04lut2021 09:41:13.035] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_origin.Seed Modifier was corrected from null to 3241280
+[04lut2021 09:41:13.035] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.the_origin.Spawing Chance was corrected from null to 1
+[04lut2021 09:41:13.035] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.blacklisted-biomes was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.035] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key structures.blacklisted-biomes.Blacklisted Biomes was corrected from null to [minecraft:modified_jungle_edge]
+[04lut2021 09:41:13.037] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key traveler was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.037] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key traveler.The One radius was corrected from null to 50
+[04lut2021 09:41:13.251] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\User\AppData\Roaming\.minecraft\versions\serverat\config\mutantbeasts-common.toml is not correct. Correcting
+[04lut2021 09:41:13.253] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.253] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.mutantCreeperSpawnWeight was corrected from null to 4
+[04lut2021 09:41:13.254] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.mutantEndermanSpawnWeight was corrected from null to 3
+[04lut2021 09:41:13.254] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.mutantSkeletonSpawnWeight was corrected from null to 4
+[04lut2021 09:41:13.254] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.mutantZombieSpawnWeight was corrected from null to 4
+[04lut2021 09:41:13.254] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.biomeWhitelist was corrected from null to [minecraft]
+[04lut2021 09:41:13.693] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\User\AppData\Roaming\.minecraft\versions\serverat\config\simpleores-common.toml is not correct. Correcting
+[04lut2021 09:41:13.694] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key General was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.694] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key General.AddModLootToChests was corrected from null to true
+[04lut2021 09:41:13.695] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.695] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.EnableCopperOre was corrected from null to true
+[04lut2021 09:41:13.695] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.EnableTinOre was corrected from null to true
+[04lut2021 09:41:13.695] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.EnableMythrilOre was corrected from null to true
+[04lut2021 09:41:13.695] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.EnableAdamantiumOre was corrected from null to true
+[04lut2021 09:41:13.695] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.EnableOnyxOre was corrected from null to true
+[04lut2021 09:41:13.695] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.Copper was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.695] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.Copper.CopperVeinSize was corrected from null to 7
+[04lut2021 09:41:13.695] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.Copper.CopperVeinCount was corrected from null to 25
+[04lut2021 09:41:13.695] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.Copper.CopperBottomHeight was corrected from null to 40
+[04lut2021 09:41:13.696] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.Copper.CopperMaxHeight was corrected from null to 128
+[04lut2021 09:41:13.696] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.Tin was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.696] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.Tin.TinVeinSize was corrected from null to 7
+[04lut2021 09:41:13.696] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.Tin.TinVeinCount was corrected from null to 20
+[04lut2021 09:41:13.696] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.Tin.TinBottomHeight was corrected from null to 20
+[04lut2021 09:41:13.697] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.Tin.TinMaxHeight was corrected from null to 90
+[04lut2021 09:41:13.697] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.Mythril was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.697] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.Mythril.MythrilVeinSize was corrected from null to 4
+[04lut2021 09:41:13.697] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.Mythril.MythrilVeinCount was corrected from null to 8
+[04lut2021 09:41:13.697] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.Mythril.MythrilBottomHeight was corrected from null to 1
+[04lut2021 09:41:13.697] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.Mythril.MythrilMaxHeight was corrected from null to 35
+[04lut2021 09:41:13.697] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.Adamantium was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.697] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.Adamantium.AdamantiumVeinSize was corrected from null to 4
+[04lut2021 09:41:13.697] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.Adamantium.AdamantiumVeinCount was corrected from null to 4
+[04lut2021 09:41:13.697] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.Adamantium.AdamantiumBottomHeight was corrected from null to 1
+[04lut2021 09:41:13.698] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.Adamantium.AdamantiumMaxHeight was corrected from null to 20
+[04lut2021 09:41:13.698] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.Onyx was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.698] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.Onyx.OnyxVeinSize was corrected from null to 7
+[04lut2021 09:41:13.698] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.Onyx.OnyxVeinCount was corrected from null to 5
+[04lut2021 09:41:13.698] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.Onyx.OnyxBottomHeight was corrected from null to 1
+[04lut2021 09:41:13.698] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key OreGeneration.Onyx.OnyxMaxHeight was corrected from null to 128
+[04lut2021 09:41:13.699] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Tools was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.700] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Tools.EnableCopperTools was corrected from null to true
+[04lut2021 09:41:13.700] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Tools.EnableTinTools was corrected from null to true
+[04lut2021 09:41:13.700] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Tools.EnableMythrilTools was corrected from null to true
+[04lut2021 09:41:13.700] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Tools.EnableAdamantiumTools was corrected from null to true
+[04lut2021 09:41:13.700] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Tools.EnableOnyxTools was corrected from null to true
+[04lut2021 09:41:13.700] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Tools.EnableCopperBucket was corrected from null to true
+[04lut2021 09:41:13.701] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Tools.EnableModBows was corrected from null to true
+[04lut2021 09:41:13.702] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Armor was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:41:13.702] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Armor.EnableCopperArmor was corrected from null to true
+[04lut2021 09:41:13.702] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Armor.EnableTinArmor was corrected from null to true
+[04lut2021 09:41:13.702] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Armor.EnableMythrilArmor was corrected from null to true
+[04lut2021 09:41:13.702] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Armor.EnableAdamantiumArmor was corrected from null to true
+[04lut2021 09:41:13.702] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Armor.EnableOnyxArmor was corrected from null to true
+[04lut2021 09:41:15.319] [Worker-Main-4/INFO] [net.optifine.Config/]: [OptiFine] Scaled non power of 2: jei:gui/icons/recipe_transfer, 7 -> 14
+[04lut2021 09:41:15.377] [Worker-Main-5/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[04lut2021 09:41:17.299] [Worker-Main-6/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[04lut2021 09:41:17.300] [Worker-Main-6/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[04lut2021 09:41:17.300] [Worker-Main-6/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[04lut2021 09:41:17.300] [Worker-Main-6/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[04lut2021 09:41:17.816] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[04lut2021 09:41:17.880] [Worker-Main-6/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[04lut2021 09:41:17.883] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] Multipass connected textures: false
+[04lut2021 09:41:17.904] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/00_glass_white/glass_pane_white.properties
+[04lut2021 09:41:17.943] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/00_glass_white/glass_white.properties
+[04lut2021 09:41:17.963] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/01_glass_orange/glass_orange.properties
+[04lut2021 09:41:17.983] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/01_glass_orange/glass_pane_orange.properties
+[04lut2021 09:41:18.000] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/02_glass_magenta/glass_magenta.properties
+[04lut2021 09:41:18.019] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/02_glass_magenta/glass_pane_magenta.properties
+[04lut2021 09:41:18.061] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/03_glass_light_blue/glass_light_blue.properties
+[04lut2021 09:41:18.079] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/03_glass_light_blue/glass_pane_light_blue.properties
+[04lut2021 09:41:18.096] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/04_glass_yellow/glass_pane_yellow.properties
+[04lut2021 09:41:18.115] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/04_glass_yellow/glass_yellow.properties
+[04lut2021 09:41:18.132] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/05_glass_lime/glass_lime.properties
+[04lut2021 09:41:18.149] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/05_glass_lime/glass_pane_lime.properties
+[04lut2021 09:41:18.165] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/06_glass_pink/glass_pane_pink.properties
+[04lut2021 09:41:18.208] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/06_glass_pink/glass_pink.properties
+[04lut2021 09:41:18.230] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/07_glass_gray/glass_gray.properties
+[04lut2021 09:41:18.246] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/07_glass_gray/glass_pane_gray.properties
+[04lut2021 09:41:18.262] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/08_glass_light_gray/glass_light_gray.properties
+[04lut2021 09:41:18.278] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/08_glass_light_gray/glass_pane_light_gray.properties
+[04lut2021 09:41:18.294] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/09_glass_cyan/glass_cyan.properties
+[04lut2021 09:41:18.310] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/09_glass_cyan/glass_pane_cyan.properties
+[04lut2021 09:41:18.336] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/10_glass_purple/glass_pane_purple.properties
+[04lut2021 09:41:18.371] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/10_glass_purple/glass_purple.properties
+[04lut2021 09:41:18.385] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/11_glass_blue/glass_blue.properties
+[04lut2021 09:41:18.399] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/11_glass_blue/glass_pane_blue.properties
+[04lut2021 09:41:18.414] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/12_glass_brown/glass_brown.properties
+[04lut2021 09:41:18.431] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/12_glass_brown/glass_pane_brown.properties
+[04lut2021 09:41:18.446] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/13_glass_green/glass_green.properties
+[04lut2021 09:41:18.464] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/13_glass_green/glass_pane_green.properties
+[04lut2021 09:41:18.497] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/14_glass_red/glass_pane_red.properties
+[04lut2021 09:41:18.512] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/14_glass_red/glass_red.properties
+[04lut2021 09:41:18.525] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/15_glass_black/glass_black.properties
+[04lut2021 09:41:18.541] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/15_glass_black/glass_pane_black.properties
+[04lut2021 09:41:18.557] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/20_glass/glass.properties
+[04lut2021 09:41:18.570] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/20_glass/glass_pane.properties
+[04lut2021 09:41:18.586] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/30_bookshelf/bookshelf.properties
+[04lut2021 09:41:18.590] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/40_sandstone/sandstone.properties
+[04lut2021 09:41:18.592] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/41_red_sandstone/red_sandstone.properties
+[04lut2021 09:41:18.595] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] Multipass connected textures: false
+[04lut2021 09:41:18.600] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[04lut2021 09:41:24.549] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 4
+[04lut2021 09:41:25.920] [Worker-Main-4/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[04lut2021 09:41:25.923] [Worker-Main-7/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[04lut2021 09:41:26.076] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeonsmod] Starting version check at https://raw.githubusercontent.com/dainxt/DungeonsMod-Issue-Tracker/master/update.json
+[04lut2021 09:41:26.650] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeonsmod] Found status: BETA Current: 1.16.3-1.1.18 Target: null
+[04lut2021 09:41:26.650] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simplecorelib] Starting version check at https://raw.githubusercontent.com/Sinhika/SimpleCoreLib/1.16/update.json
+[04lut2021 09:41:26.659] [Worker-Main-8/INFO] [xaero.map.WorldMap/]: Loading Xaero's World Map - Stage 1/2
+[04lut2021 09:41:26.684] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simplecorelib] Found status: AHEAD Current: 1.16.3-2.0.1.2 Target: null
+[04lut2021 09:41:26.684] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [car] Starting version check at https://maxhenkel.de/update/car.json
+[04lut2021 09:41:26.990] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [car] Found status: UP_TO_DATE Current: 1.16.3-1.0.4 Target: null
+[04lut2021 09:41:26.993] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[04lut2021 09:41:27.496] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 34.1.41 Target: 34.1.42
+[04lut2021 09:41:27.496] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simpleores] Starting version check at https://raw.githubusercontent.com/Sinhika/SimpleOres2/1.16/update.json
+[04lut2021 09:41:27.514] [Render thread/INFO] [xaero.map.WorldMap/]: Loading Xaero's World Map - Stage 2/2
+[04lut2021 09:41:27.521] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simpleores] Found status: AHEAD Current: 1.16.3-2.3.1.0 Target: null
+[04lut2021 09:41:27.521] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://maxhenkel.de/update/gravestone.json
+[04lut2021 09:41:27.529] [Render thread/INFO] [STDOUT/]: [xaero.map.mods.SupportMods:load:22]: Optifine!
+[04lut2021 09:41:27.619] [Worker-Main-7/ERROR] [net.minecraft.client.renderer.texture.AtlasTexture/]: Using missing texture, unable to load car:textures/block/bio_diesel.png : java.io.FileNotFoundException: car:textures/block/bio_diesel.png
+[04lut2021 09:41:27.688] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.16.3-2.0.4 Target: null
+[04lut2021 09:41:27.698] [Worker-Main-7/ERROR] [net.minecraft.client.renderer.texture.AtlasTexture/]: Using missing texture, unable to load car:textures/block/methanol.png : java.io.FileNotFoundException: car:textures/block/methanol.png
+[04lut2021 09:41:27.942] [Worker-Main-8/ERROR] [net.minecraft.client.renderer.texture.AtlasTexture/]: Using missing texture, unable to load car:textures/block/canola_methanol_mix.png : java.io.FileNotFoundException: car:textures/block/canola_methanol_mix.png
+[04lut2021 09:41:27.989] [Worker-Main-4/ERROR] [net.minecraft.client.renderer.texture.AtlasTexture/]: Using missing texture, unable to load car:textures/block/glycerin.png : java.io.FileNotFoundException: car:textures/block/glycerin.png
+[04lut2021 09:41:27.993] [Worker-Main-4/ERROR] [net.minecraft.client.renderer.texture.AtlasTexture/]: Using missing texture, unable to load minecraft:textures/block/stone_slab_top.png : java.io.FileNotFoundException: minecraft:textures/block/stone_slab_top.png
+[04lut2021 09:41:28.095] [Worker-Main-7/ERROR] [net.minecraft.client.renderer.texture.AtlasTexture/]: Using missing texture, unable to load car:textures/block/canola_oil.png : java.io.FileNotFoundException: car:textures/block/canola_oil.png
+[04lut2021 09:41:28.109] [Worker-Main-8/ERROR] [net.minecraft.client.renderer.texture.AtlasTexture/]: Using missing texture, unable to load minecraft:textures/block/hardened_clay_stained_gray.png : java.io.FileNotFoundException: minecraft:textures/block/hardened_clay_stained_gray.png
+[04lut2021 09:41:28.830] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[04lut2021 09:41:28.848] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[04lut2021 09:41:28.848] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[04lut2021 09:41:28.886] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[04lut2021 09:41:29.006] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[04lut2021 09:41:29.007] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[04lut2021 09:41:29.051] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[04lut2021 09:41:29.179] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[04lut2021 09:41:29.179] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[04lut2021 09:41:29.203] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[04lut2021 09:41:29.244] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[04lut2021 09:41:29.244] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[04lut2021 09:41:29.254] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[04lut2021 09:41:29.291] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[04lut2021 09:41:29.291] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[04lut2021 09:41:29.300] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[04lut2021 09:41:29.348] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[04lut2021 09:41:29.349] [Worker-Main-6/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[04lut2021 09:41:44.418] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[04lut2021 09:41:44.420] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[04lut2021 09:41:44.952] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x256x0 jei:textures/atlas/gui.png-atlas
+[04lut2021 09:41:44.954] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[04lut2021 09:41:44.955] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/config_button
+[04lut2021 09:41:44.955] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/config_button
+[04lut2021 09:41:44.955] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/config_button_cheat
+[04lut2021 09:41:44.955] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/config_button_cheat
+[04lut2021 09:41:44.955] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/arrow_previous
+[04lut2021 09:41:44.955] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/arrow_previous
+[04lut2021 09:41:44.956] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/bookmark_button_enabled
+[04lut2021 09:41:44.956] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/bookmark_button_enabled
+[04lut2021 09:41:44.956] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/arrow_next
+[04lut2021 09:41:44.956] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/arrow_next
+[04lut2021 09:41:44.956] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: minecraft:missingno
+[04lut2021 09:41:44.956] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: minecraft:missingno
+[04lut2021 09:41:44.956] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/info
+[04lut2021 09:41:44.956] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/info
+[04lut2021 09:41:44.956] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/recipe_transfer
+[04lut2021 09:41:44.956] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/recipe_transfer
+[04lut2021 09:41:44.956] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/vote
+[04lut2021 09:41:44.956] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/vote
+[04lut2021 09:41:44.957] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[04lut2021 09:41:45.429] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 56
+[04lut2021 09:41:45.433] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[04lut2021 09:41:45.435] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[04lut2021 09:41:45.436] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[04lut2021 09:41:45.445] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[04lut2021 09:41:45.446] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[04lut2021 09:41:45.454] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[04lut2021 09:41:45.455] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[04lut2021 09:41:45.458] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[04lut2021 09:41:45.459] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[04lut2021 09:41:45.463] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[04lut2021 09:41:45.464] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[04lut2021 09:41:45.468] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[04lut2021 09:41:46.972] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[04lut2021 09:41:46.979] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[04lut2021 09:41:46.981] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[04lut2021 09:41:46.984] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[04lut2021 09:41:46.985] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[04lut2021 09:41:46.987] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[04lut2021 09:41:46.990] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] *** Reloading custom textures ***
+[04lut2021 09:41:47.004] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[04lut2021 09:41:47.107] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[04lut2021 09:41:47.111] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[04lut2021 09:42:10.263] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[04lut2021 09:42:11.048] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[04lut2021 09:42:11.058] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[04lut2021 09:42:11.075] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Disable Forge light pipeline
+[04lut2021 09:42:11.077] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] Set ForgeConfig.CLIENT.forgeLightPipelineEnabled=false
+[04lut2021 09:42:12.827] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[04lut2021 09:42:13.065] [Render thread/INFO] [STDOUT/]: [org.tlauncher.util.TLModCfg:<clinit>:25]: [TLSkinCape] Current TLSkinCape version is 1.16
+[04lut2021 09:42:13.067] [Render thread/INFO] [STDOUT/]: [org.tlauncher.util.TLModCfg:<clinit>:44]: [TLSkinCape] Current Minecraft version is 1.15.
+[04lut2021 09:42:13.067] [Render thread/INFO] [STDOUT/]: [org.tlauncher.util.TLModCfg:<clinit>:48]: [TLSkinCape] OptiFine detected.
+[04lut2021 09:42:41.260] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[04lut2021 09:42:41.262] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04lut2021 09:42:41.264] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04lut2021 09:42:41.266] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[04lut2021 09:42:41.268] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04lut2021 09:42:41.273] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, DungeonsMod-1.16.3-1.1.18.jar, MutantBeasts-1.16.4-1.1.3.jar, craftingstation_1.16.3_4.1.1.jar, SimpleCoreLib-1.16.3-2.0.1.2.jar, BackTools-1.16.3-10.0.0.jar, jei-1.16.3-7.6.0.51.jar, iChunUtil-1.16.3-10.0.0.jar, car-1.16.3-1.0.4.jar, forge-1.16.3-34.1.41-universal.jar, tl_skin_cape_forge_1.15.x_1.16.x-1.16.jar, Neat+1.7-27.jar, SimpleOres2-1.16.3-2.3.1.0.jar, gravestone-1.16.3-2.0.4.jar, XaerosWorldMap_1.11.11.2_Forge_1.16.5.jar
+[04lut2021 09:42:42.361] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 10 recipes
+[04lut2021 09:42:43.895] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1060 advancements
+[04lut2021 09:42:55.135] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[04lut2021 09:42:55.726] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.16.3
+[04lut2021 09:42:55.726] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[04lut2021 09:42:55.975] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\User\AppData\Roaming\.minecraft\versions\serverat\saves\Nowy œwiat\serverconfig\forge-server.toml is not correct. Correcting
+[04lut2021 09:42:55.976] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:42:55.976] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to false
+[04lut2021 09:42:55.976] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringTileEntities was corrected from null to false
+[04lut2021 09:42:55.976] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to false
+[04lut2021 09:42:55.977] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to 0.1
+[04lut2021 09:42:55.977] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to 0.05
+[04lut2021 09:42:55.977] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.logCascadingWorldGeneration was corrected from null to true
+[04lut2021 09:42:55.977] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixVanillaCascading was corrected from null to false
+[04lut2021 09:42:55.977] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.dimensionUnloadQueueDelay was corrected from null to 0
+[04lut2021 09:42:55.977] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to false
+[04lut2021 09:42:55.977] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to true
+[04lut2021 09:42:55.981] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\User\AppData\Roaming\.minecraft\versions\serverat\saves\Nowy œwiat\serverconfig\gravestone-server.toml is not correct. Correcting
+[04lut2021 09:42:55.981] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enable_obituary was corrected from null to true
+[04lut2021 09:42:55.982] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key replaceable_blocks was corrected from null to [minecraft:tall_grass, minecraft:grass, minecraft:water, minecraft:lava, minecraft:dandelion, minecraft:lilac, minecraft:rose_bush, minecraft:peony, minecraft:sunflower, minecraft:poppy, minecraft:blue_orchid, minecraft:azure_bluet, minecraft:oxeye_daisy, minecraft:orange_tulip, minecraft:pink_tulip, minecraft:red_tulip, minecraft:white_tulip, minecraft:allium, minecraft:fern, minecraft:large_fern, minecraft:spruce_sapling, minecraft:acacia_sapling, minecraft:birch_sapling, minecraft:dark_oak_sapling, minecraft:jungle_sapling, minecraft:oak_sapling, minecraft:brown_mushroom, minecraft:red_mushroom, minecraft:snow, minecraft:vine, minecraft:dead_bush, minecraft:fire]
+[04lut2021 09:42:55.984] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key remove_obituary was corrected from null to false
+[04lut2021 09:42:55.990] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key only_owners_can_break was corrected from null to false
+[04lut2021 09:42:55.992] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key spawn_ghost was corrected from null to false
+[04lut2021 09:42:55.993] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key friendly_ghost was corrected from null to true
+[04lut2021 09:42:55.994] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sneak_pickup was corrected from null to false
+[04lut2021 09:42:55.997] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key break_pickup was corrected from null to true
+[04lut2021 09:42:56.003] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\User\AppData\Roaming\.minecraft\versions\serverat\saves\Nowy œwiat\serverconfig\car-server.toml is not correct. Correcting
+[04lut2021 09:42:56.004] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:42:56.004] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.backmix_reactor was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:42:56.004] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.backmix_reactor.energy_storage was corrected from null to 10000
+[04lut2021 09:42:56.004] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.backmix_reactor.energy_usage was corrected from null to 10
+[04lut2021 09:42:56.004] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.backmix_reactor.fluid_storage was corrected from null to 3000
+[04lut2021 09:42:56.005] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.backmix_reactor.generating_time was corrected from null to 200
+[04lut2021 09:42:56.005] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.backmix_reactor.mix_generation was corrected from null to 100
+[04lut2021 09:42:56.005] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.backmix_reactor.methanol_usage was corrected from null to 50
+[04lut2021 09:42:56.005] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.backmix_reactor.canola_usage was corrected from null to 50
+[04lut2021 09:42:56.005] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.blast_furnace was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:42:56.005] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.blast_furnace.energy_storage was corrected from null to 10000
+[04lut2021 09:42:56.005] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.blast_furnace.fluid_storage was corrected from null to 3000
+[04lut2021 09:42:56.005] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.oil_mill was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:42:56.005] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.oil_mill.energy_storage was corrected from null to 10000
+[04lut2021 09:42:56.005] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.oil_mill.fluid_storage was corrected from null to 3000
+[04lut2021 09:42:56.006] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.cable was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:42:56.006] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.cable.transfer_rate was corrected from null to 256
+[04lut2021 09:42:56.006] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.dynamo was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:42:56.006] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.dynamo.energy_storage was corrected from null to 1000
+[04lut2021 09:42:56.006] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.dynamo.energy_generation was corrected from null to 25
+[04lut2021 09:42:56.006] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.fluid_extractor was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:42:56.006] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.fluid_extractor.drain_speed was corrected from null to 25
+[04lut2021 09:42:56.006] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.gas_station was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:42:56.006] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.gas_station.transfer_rate was corrected from null to 5
+[04lut2021 09:42:56.006] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.gas_station.valid_fuels was corrected from null to [car:bio_diesel]
+[04lut2021 09:42:56.006] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.generator was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:42:56.007] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.generator.energy_storage was corrected from null to 30000
+[04lut2021 09:42:56.007] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.generator.fluid_storage was corrected from null to 3000
+[04lut2021 09:42:56.008] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.generator.energy_generation was corrected from null to 500
+[04lut2021 09:42:56.008] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.split_tank was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:42:56.008] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.split_tank.fluid_storage was corrected from null to 3000
+[04lut2021 09:42:56.008] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.split_tank.generating_time was corrected from null to 800
+[04lut2021 09:42:56.008] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.split_tank.mix_usage was corrected from null to 100
+[04lut2021 09:42:56.008] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.split_tank.glycerin_generation was corrected from null to 10
+[04lut2021 09:42:56.008] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.split_tank.bio_diesel_generation was corrected from null to 100
+[04lut2021 09:42:56.009] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:42:56.010] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.repair_kit was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:42:56.010] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.repair_kit.repair_amount was corrected from null to 5.0
+[04lut2021 09:42:56.010] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.canister was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:42:56.010] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.canister.max_fuel was corrected from null to 100
+[04lut2021 09:42:56.011] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:42:56.011] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.collide_with_entities was corrected from null to false
+[04lut2021 09:42:56.011] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.damage_entities was corrected from null to true
+[04lut2021 09:42:56.011] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.horn_flee was corrected from null to true
+[04lut2021 09:42:56.011] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.use_battery was corrected from null to true
+[04lut2021 09:42:56.011] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.offroad_speed_modifier was corrected from null to 1.0
+[04lut2021 09:42:56.012] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.onroad_speed_modifier was corrected from null to 1.0
+[04lut2021 09:42:56.012] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.road_blocks was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:42:56.012] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.road_blocks.blocks was corrected from null to [car:asphalt, car:asphalt_slab, car:asphalt_slope, car:asphalt_slope_flat_lower, car:asphalt_slope_flat_upper]
+[04lut2021 09:42:56.012] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:42:56.012] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_6_cylinder was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:42:56.012] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_6_cylinder.fuel_efficiency was corrected from null to 0.25
+[04lut2021 09:42:56.012] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_6_cylinder.acceleration was corrected from null to 0.04
+[04lut2021 09:42:56.012] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_6_cylinder.max_speed was corrected from null to 0.75
+[04lut2021 09:42:56.012] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_6_cylinder.max_reverse_speed was corrected from null to 0.2
+[04lut2021 09:42:56.012] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_3_cylinder was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:42:56.012] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_3_cylinder.fuel_efficiency was corrected from null to 0.5
+[04lut2021 09:42:56.012] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_3_cylinder.acceleration was corrected from null to 0.035
+[04lut2021 09:42:56.012] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_3_cylinder.max_speed was corrected from null to 0.65
+[04lut2021 09:42:56.012] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_3_cylinder.max_reverse_speed was corrected from null to 0.2
+[04lut2021 09:42:56.012] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_truck was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:42:56.012] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_truck.fuel_efficiency was corrected from null to 0.7
+[04lut2021 09:42:56.012] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_truck.acceleration was corrected from null to 0.032
+[04lut2021 09:42:56.012] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_truck.max_speed was corrected from null to 0.6
+[04lut2021 09:42:56.013] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_truck.max_reverse_speed was corrected from null to 0.15
+[04lut2021 09:42:56.013] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_big_wood was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:42:56.013] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_big_wood.fuel_efficiency was corrected from null to 0.7
+[04lut2021 09:42:56.013] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_big_wood.acceleration was corrected from null to 0.95
+[04lut2021 09:42:56.013] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_big_wood.max_speed was corrected from null to 0.85
+[04lut2021 09:42:56.014] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_wood was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:42:56.014] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_wood.fuel_efficiency was corrected from null to 0.8
+[04lut2021 09:42:56.014] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_wood.acceleration was corrected from null to 1.0
+[04lut2021 09:42:56.014] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_wood.max_speed was corrected from null to 0.9
+[04lut2021 09:42:56.014] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_sport was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:42:56.015] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_sport.fuel_efficiency was corrected from null to 0.9
+[04lut2021 09:42:56.015] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_sport.acceleration was corrected from null to 1.0
+[04lut2021 09:42:56.015] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_sport.max_speed was corrected from null to 1.0
+[04lut2021 09:42:56.015] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_suv was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:42:56.015] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_suv.fuel_efficiency was corrected from null to 0.6
+[04lut2021 09:42:56.015] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_suv.acceleration was corrected from null to 0.8
+[04lut2021 09:42:56.015] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_suv.max_speed was corrected from null to 0.7
+[04lut2021 09:42:56.015] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_transporter was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:42:56.015] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_transporter.fuel_efficiency was corrected from null to 0.6
+[04lut2021 09:42:56.015] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_transporter.acceleration was corrected from null to 0.8
+[04lut2021 09:42:56.015] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_transporter.max_speed was corrected from null to 0.765
+[04lut2021 09:43:02.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[04lut2021 09:43:03.002] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 0%
+[04lut2021 09:43:03.347] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 0%
+[04lut2021 09:43:03.882] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 0%
+[04lut2021 09:43:04.329] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 1%
+[04lut2021 09:43:04.888] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 1%
+[04lut2021 09:43:05.373] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 2%
+[04lut2021 09:43:05.838] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 4%
+[04lut2021 09:43:06.316] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 6%
+[04lut2021 09:43:06.824] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 9%
+[04lut2021 09:43:07.316] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 9%
+[04lut2021 09:43:07.817] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 9%
+[04lut2021 09:43:08.319] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 9%
+[04lut2021 09:43:08.853] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 15%
+[04lut2021 09:43:09.318] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 15%
+[04lut2021 09:43:09.844] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 20%
+[04lut2021 09:43:10.337] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 20%
+[04lut2021 09:43:10.855] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 24%
+[04lut2021 09:43:11.339] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 24%
+[04lut2021 09:43:11.823] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 24%
+[04lut2021 09:43:12.340] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 24%
+[04lut2021 09:43:12.839] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 24%
+[04lut2021 09:43:13.339] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 32%
+[04lut2021 09:43:13.840] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 34%
+[04lut2021 09:43:14.340] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 35%
+[04lut2021 09:43:15.694] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 35%
+[04lut2021 09:43:15.694] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 35%
+[04lut2021 09:43:15.828] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 43%
+[04lut2021 09:43:16.326] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 44%
+[04lut2021 09:43:16.847] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 46%
+[04lut2021 09:43:18.171] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 47%
+[04lut2021 09:43:18.171] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 47%
+[04lut2021 09:43:18.329] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 54%
+[04lut2021 09:43:19.782] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 54%
+[04lut2021 09:43:19.782] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 54%
+[04lut2021 09:43:21.135] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 60%
+[04lut2021 09:43:21.135] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 60%
+[04lut2021 09:43:21.135] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 60%
+[04lut2021 09:43:22.119] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 67%
+[04lut2021 09:43:22.119] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 67%
+[04lut2021 09:43:22.752] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 71%
+[04lut2021 09:43:22.819] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 71%
+[04lut2021 09:43:23.588] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 73%
+[04lut2021 09:43:25.252] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 77%
+[04lut2021 09:43:25.252] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 77%
+[04lut2021 09:43:25.252] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 77%
+[04lut2021 09:43:25.322] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 85%
+[04lut2021 09:43:26.372] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 86%
+[04lut2021 09:43:26.372] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 86%
+[04lut2021 09:43:27.556] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 91%
+[04lut2021 09:43:27.556] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 91%
+[04lut2021 09:43:28.043] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 97%
+[04lut2021 09:43:28.043] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 25228 ms
+[04lut2021 09:43:28.463] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 7, from 10
+[04lut2021 09:43:31.855] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[04lut2021 09:43:31.935] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@4472d699
+[04lut2021 09:43:31.954] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: umysmine[local:E:b2a51ef3] logged in with entity id 268 at (-258.5, 68.0, 38.5)
+[04lut2021 09:43:32.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gracz umysmine do³¹czy³ do gry
+[04lut2021 09:43:34.873] [Render thread/INFO] [STDOUT/]: [xaero.map.WorldMapSession:init:38]: New world map session initialized!
+[04lut2021 09:43:35.362] [Render thread/WARN] [net.minecraft.client.util.ClientRecipeBook/]: Unknown recipe category: car:oil_mill/car:canola_oil
+[04lut2021 09:43:35.364] [Render thread/WARN] [net.minecraft.client.util.ClientRecipeBook/]: Unknown recipe category: car:blast_furnace/car:methanol
+[04lut2021 09:43:35.403] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[04lut2021 09:43:35.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:overworld
+[04lut2021 09:43:35.499] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Starting JEI...
+[04lut2021 09:43:36.110] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient list...
+[04lut2021 09:43:36.116] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient list took 5.566 ms
+[04lut2021 09:43:36.116] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient filter...
+[04lut2021 09:43:36.487] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient filter took 370.7 ms
+[04lut2021 09:43:36.487] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building bookmarks...
+[04lut2021 09:43:36.505] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building bookmarks took 17.63 ms
+[04lut2021 09:43:36.505] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building recipe registry...
+[04lut2021 09:43:37.148] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building recipe registry took 642.7 ms
+[04lut2021 09:43:37.177] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building runtime...
+[04lut2021 09:43:37.246] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building runtime took 68.67 ms
+[04lut2021 09:43:37.276] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Starting JEI took 1.776 s
+[04lut2021 09:43:37.683] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
+[04lut2021 09:43:37.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:the_nether
+[04lut2021 09:43:37.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:the_end
+[04lut2021 09:43:37.906] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2463ms or 49 ticks behind
+[04lut2021 09:43:39.598] [Render thread/INFO] [org.tlauncher.renderer.TextureManager/]: calculated cape performance:HIGH, middle time: 2.8333333333333335
+[04lut2021 09:43:41.148] [Render thread/INFO] [org.tlauncher.renderer.TextureManager/]: calculated elitra performance:HIGH, middle time: 3.0
+[04lut2021 09:44:27.744] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[04lut2021 09:44:27.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:overworld
+[04lut2021 09:44:28.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:the_nether
+[04lut2021 09:44:28.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:the_end
+[04lut2021 09:44:30.095] [Render thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[04lut2021 09:44:30.127] [Render thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Started serving on 53938
+[04lut2021 09:44:30.208] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Lokalna gra hostowana na porcie 53938
+[04lut2021 09:44:50.141] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Nieznane lub niekompletne polecenie, zobacz poni¿ej by zobaczyæ b³¹d
+[04lut2021 09:44:50.141] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ...tlskincape<--[TUTAJ]
+[04lut2021 09:44:55.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [umysmine: Konfiguracja dla tlskincape z typem CLIENT nie zosta³a znaleziona]
+[04lut2021 09:44:55.864] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Konfiguracja dla tlskincape z typem CLIENT nie zosta³a znaleziona
+[04lut2021 09:45:48.718] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 22 advancements
+[04lut2021 09:45:49.351] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 27 advancements
+[04lut2021 09:46:08.240] [Render thread/INFO] [STDOUT/]: [xaero.map.WorldMapSession:cleanup:44]: World map session finalized.
+[04lut2021 09:46:08.250] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: umysmine lost connection: Roz³¹czono
+[04lut2021 09:46:08.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gracz umysmine opuœci³ grê 
+[04lut2021 09:46:08.259] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[04lut2021 09:46:08.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[04lut2021 09:46:08.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[04lut2021 09:46:08.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[04lut2021 09:46:08.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:overworld
+[04lut2021 09:46:08.992] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Nowy œwiat): All chunks are saved
+[04lut2021 09:46:08.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:the_nether
+[04lut2021 09:46:08.993] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04lut2021 09:46:08.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:the_end
+[04lut2021 09:46:08.994] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04lut2021 09:46:09.032] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Nowy œwiat): All chunks are saved
+[04lut2021 09:46:09.167] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04lut2021 09:46:09.167] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04lut2021 09:46:09.283] [Thread-10/INFO] [STDOUT/]: [xaero.map.MapProcessor:updateWorldSynced:638]: World map cleaned normally!
+[04lut2021 09:46:52.653] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[04lut2021 09:46:52.655] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04lut2021 09:46:52.657] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04lut2021 09:46:52.659] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[04lut2021 09:46:52.661] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04lut2021 09:46:52.661] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, DungeonsMod-1.16.3-1.1.18.jar, MutantBeasts-1.16.4-1.1.3.jar, craftingstation_1.16.3_4.1.1.jar, SimpleCoreLib-1.16.3-2.0.1.2.jar, BackTools-1.16.3-10.0.0.jar, jei-1.16.3-7.6.0.51.jar, iChunUtil-1.16.3-10.0.0.jar, car-1.16.3-1.0.4.jar, forge-1.16.3-34.1.41-universal.jar, tl_skin_cape_forge_1.15.x_1.16.x-1.16.jar, Neat+1.7-27.jar, SimpleOres2-1.16.3-2.3.1.0.jar, gravestone-1.16.3-2.0.4.jar, XaerosWorldMap_1.11.11.2_Forge_1.16.5.jar
+[04lut2021 09:46:53.561] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 10 recipes
+[04lut2021 09:46:54.497] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1060 advancements
+[04lut2021 09:47:06.051] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[04lut2021 09:47:06.086] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.16.3
+[04lut2021 09:47:06.086] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[04lut2021 09:47:06.168] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\User\AppData\Roaming\.minecraft\versions\serverat\saves\Nowy œwiat (1)\serverconfig\forge-server.toml is not correct. Correcting
+[04lut2021 09:47:06.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:47:06.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to false
+[04lut2021 09:47:06.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringTileEntities was corrected from null to false
+[04lut2021 09:47:06.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to false
+[04lut2021 09:47:06.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to 0.1
+[04lut2021 09:47:06.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to 0.05
+[04lut2021 09:47:06.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.logCascadingWorldGeneration was corrected from null to true
+[04lut2021 09:47:06.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixVanillaCascading was corrected from null to false
+[04lut2021 09:47:06.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.dimensionUnloadQueueDelay was corrected from null to 0
+[04lut2021 09:47:06.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to false
+[04lut2021 09:47:06.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to true
+[04lut2021 09:47:06.174] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\User\AppData\Roaming\.minecraft\versions\serverat\saves\Nowy œwiat (1)\serverconfig\gravestone-server.toml is not correct. Correcting
+[04lut2021 09:47:06.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enable_obituary was corrected from null to true
+[04lut2021 09:47:06.176] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key replaceable_blocks was corrected from null to [minecraft:tall_grass, minecraft:grass, minecraft:water, minecraft:lava, minecraft:dandelion, minecraft:lilac, minecraft:rose_bush, minecraft:peony, minecraft:sunflower, minecraft:poppy, minecraft:blue_orchid, minecraft:azure_bluet, minecraft:oxeye_daisy, minecraft:orange_tulip, minecraft:pink_tulip, minecraft:red_tulip, minecraft:white_tulip, minecraft:allium, minecraft:fern, minecraft:large_fern, minecraft:spruce_sapling, minecraft:acacia_sapling, minecraft:birch_sapling, minecraft:dark_oak_sapling, minecraft:jungle_sapling, minecraft:oak_sapling, minecraft:brown_mushroom, minecraft:red_mushroom, minecraft:snow, minecraft:vine, minecraft:dead_bush, minecraft:fire]
+[04lut2021 09:47:06.177] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key remove_obituary was corrected from null to false
+[04lut2021 09:47:06.179] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key only_owners_can_break was corrected from null to false
+[04lut2021 09:47:06.181] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key spawn_ghost was corrected from null to false
+[04lut2021 09:47:06.182] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key friendly_ghost was corrected from null to true
+[04lut2021 09:47:06.184] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sneak_pickup was corrected from null to false
+[04lut2021 09:47:06.185] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key break_pickup was corrected from null to true
+[04lut2021 09:47:06.189] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\User\AppData\Roaming\.minecraft\versions\serverat\saves\Nowy œwiat (1)\serverconfig\car-server.toml is not correct. Correcting
+[04lut2021 09:47:06.190] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:47:06.190] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.backmix_reactor was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:47:06.190] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.backmix_reactor.energy_storage was corrected from null to 10000
+[04lut2021 09:47:06.190] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.backmix_reactor.energy_usage was corrected from null to 10
+[04lut2021 09:47:06.191] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.backmix_reactor.fluid_storage was corrected from null to 3000
+[04lut2021 09:47:06.191] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.backmix_reactor.generating_time was corrected from null to 200
+[04lut2021 09:47:06.191] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.backmix_reactor.mix_generation was corrected from null to 100
+[04lut2021 09:47:06.191] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.backmix_reactor.methanol_usage was corrected from null to 50
+[04lut2021 09:47:06.191] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.backmix_reactor.canola_usage was corrected from null to 50
+[04lut2021 09:47:06.191] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.blast_furnace was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:47:06.191] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.blast_furnace.energy_storage was corrected from null to 10000
+[04lut2021 09:47:06.191] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.blast_furnace.fluid_storage was corrected from null to 3000
+[04lut2021 09:47:06.191] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.oil_mill was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:47:06.191] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.oil_mill.energy_storage was corrected from null to 10000
+[04lut2021 09:47:06.191] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.oil_mill.fluid_storage was corrected from null to 3000
+[04lut2021 09:47:06.191] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.cable was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:47:06.191] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.cable.transfer_rate was corrected from null to 256
+[04lut2021 09:47:06.192] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.dynamo was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:47:06.192] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.dynamo.energy_storage was corrected from null to 1000
+[04lut2021 09:47:06.192] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.dynamo.energy_generation was corrected from null to 25
+[04lut2021 09:47:06.192] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.fluid_extractor was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:47:06.192] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.fluid_extractor.drain_speed was corrected from null to 25
+[04lut2021 09:47:06.192] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.gas_station was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:47:06.192] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.gas_station.transfer_rate was corrected from null to 5
+[04lut2021 09:47:06.192] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.gas_station.valid_fuels was corrected from null to [car:bio_diesel]
+[04lut2021 09:47:06.192] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.generator was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:47:06.192] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.generator.energy_storage was corrected from null to 30000
+[04lut2021 09:47:06.192] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.generator.fluid_storage was corrected from null to 3000
+[04lut2021 09:47:06.192] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.generator.energy_generation was corrected from null to 500
+[04lut2021 09:47:06.192] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.split_tank was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:47:06.192] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.split_tank.fluid_storage was corrected from null to 3000
+[04lut2021 09:47:06.193] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.split_tank.generating_time was corrected from null to 800
+[04lut2021 09:47:06.193] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.split_tank.mix_usage was corrected from null to 100
+[04lut2021 09:47:06.193] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.split_tank.glycerin_generation was corrected from null to 10
+[04lut2021 09:47:06.193] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key machines.split_tank.bio_diesel_generation was corrected from null to 100
+[04lut2021 09:47:06.194] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:47:06.194] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.repair_kit was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:47:06.194] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.repair_kit.repair_amount was corrected from null to 5.0
+[04lut2021 09:47:06.194] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.canister was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:47:06.194] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.canister.max_fuel was corrected from null to 100
+[04lut2021 09:47:06.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:47:06.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.collide_with_entities was corrected from null to false
+[04lut2021 09:47:06.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.damage_entities was corrected from null to true
+[04lut2021 09:47:06.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.horn_flee was corrected from null to true
+[04lut2021 09:47:06.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.use_battery was corrected from null to true
+[04lut2021 09:47:06.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.offroad_speed_modifier was corrected from null to 1.0
+[04lut2021 09:47:06.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.onroad_speed_modifier was corrected from null to 1.0
+[04lut2021 09:47:06.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.road_blocks was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:47:06.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.road_blocks.blocks was corrected from null to [car:asphalt, car:asphalt_slab, car:asphalt_slope, car:asphalt_slope_flat_lower, car:asphalt_slope_flat_upper]
+[04lut2021 09:47:06.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:47:06.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_6_cylinder was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:47:06.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_6_cylinder.fuel_efficiency was corrected from null to 0.25
+[04lut2021 09:47:06.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_6_cylinder.acceleration was corrected from null to 0.04
+[04lut2021 09:47:06.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_6_cylinder.max_speed was corrected from null to 0.75
+[04lut2021 09:47:06.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_6_cylinder.max_reverse_speed was corrected from null to 0.2
+[04lut2021 09:47:06.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_3_cylinder was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:47:06.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_3_cylinder.fuel_efficiency was corrected from null to 0.5
+[04lut2021 09:47:06.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_3_cylinder.acceleration was corrected from null to 0.035
+[04lut2021 09:47:06.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_3_cylinder.max_speed was corrected from null to 0.65
+[04lut2021 09:47:06.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_3_cylinder.max_reverse_speed was corrected from null to 0.2
+[04lut2021 09:47:06.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_truck was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:47:06.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_truck.fuel_efficiency was corrected from null to 0.7
+[04lut2021 09:47:06.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_truck.acceleration was corrected from null to 0.032
+[04lut2021 09:47:06.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_truck.max_speed was corrected from null to 0.6
+[04lut2021 09:47:06.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.engine_truck.max_reverse_speed was corrected from null to 0.15
+[04lut2021 09:47:06.198] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_big_wood was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:47:06.198] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_big_wood.fuel_efficiency was corrected from null to 0.7
+[04lut2021 09:47:06.198] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_big_wood.acceleration was corrected from null to 0.95
+[04lut2021 09:47:06.198] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_big_wood.max_speed was corrected from null to 0.85
+[04lut2021 09:47:06.198] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_wood was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:47:06.198] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_wood.fuel_efficiency was corrected from null to 0.8
+[04lut2021 09:47:06.198] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_wood.acceleration was corrected from null to 1.0
+[04lut2021 09:47:06.198] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_wood.max_speed was corrected from null to 0.9
+[04lut2021 09:47:06.198] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_sport was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:47:06.198] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_sport.fuel_efficiency was corrected from null to 0.9
+[04lut2021 09:47:06.198] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_sport.acceleration was corrected from null to 1.0
+[04lut2021 09:47:06.198] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_sport.max_speed was corrected from null to 1.0
+[04lut2021 09:47:06.198] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_suv was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:47:06.199] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_suv.fuel_efficiency was corrected from null to 0.6
+[04lut2021 09:47:06.199] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_suv.acceleration was corrected from null to 0.8
+[04lut2021 09:47:06.199] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_suv.max_speed was corrected from null to 0.7
+[04lut2021 09:47:06.199] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_transporter was corrected from null to SimpleCommentedConfig:{}
+[04lut2021 09:47:06.199] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_transporter.fuel_efficiency was corrected from null to 0.6
+[04lut2021 09:47:06.199] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_transporter.acceleration was corrected from null to 0.8
+[04lut2021 09:47:06.199] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key car.parts.body_transporter.max_speed was corrected from null to 0.765
+[04lut2021 09:47:11.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[04lut2021 09:47:11.683] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 0%
+[04lut2021 09:47:12.137] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 0%
+[04lut2021 09:47:12.608] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 2%
+[04lut2021 09:47:13.088] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 2%
+[04lut2021 09:47:13.604] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 4%
+[04lut2021 09:47:14.088] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 9%
+[04lut2021 09:47:14.609] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 9%
+[04lut2021 09:47:15.089] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 16%
+[04lut2021 09:47:15.607] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 16%
+[04lut2021 09:47:16.106] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 16%
+[04lut2021 09:47:16.592] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 16%
+[04lut2021 09:47:17.107] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 27%
+[04lut2021 09:47:17.594] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 27%
+[04lut2021 09:47:18.103] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 27%
+[04lut2021 09:47:18.609] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 40%
+[04lut2021 09:47:19.111] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 40%
+[04lut2021 09:47:19.597] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 40%
+[04lut2021 09:47:20.096] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 40%
+[04lut2021 09:47:20.597] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 40%
+[04lut2021 09:47:21.115] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 61%
+[04lut2021 09:47:21.597] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 61%
+[04lut2021 09:47:23.190] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 61%
+[04lut2021 09:47:23.191] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 61%
+[04lut2021 09:47:23.191] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 61%
+[04lut2021 09:47:24.234] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 79%
+[04lut2021 09:47:24.234] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 79%
+[04lut2021 09:47:24.834] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 86%
+[04lut2021 09:47:25.103] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 93%
+[04lut2021 09:47:25.924] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Przygotowywanie strefy odrodzenia: 94%
+[04lut2021 09:47:25.925] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 14340 ms
+[04lut2021 09:47:26.195] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 7, from 10
+[04lut2021 09:47:26.708] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@203a9ae3
+[04lut2021 09:47:26.712] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: umysmine[local:E:29d1e27c] logged in with entity id 1080 at (0.5, 70.0, 65.5)
+[04lut2021 09:47:26.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gracz umysmine do³¹czy³ do gry
+[04lut2021 09:47:26.862] [Netty Local Client IO #1/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[04lut2021 09:47:27.681] [Render thread/INFO] [STDOUT/]: [xaero.map.WorldMapSession:init:38]: New world map session initialized!
+[04lut2021 09:47:27.747] [Render thread/WARN] [net.minecraft.client.util.ClientRecipeBook/]: Unknown recipe category: car:blast_furnace/car:methanol
+[04lut2021 09:47:27.748] [Render thread/WARN] [net.minecraft.client.util.ClientRecipeBook/]: Unknown recipe category: car:oil_mill/car:canola_oil
+[04lut2021 09:47:27.768] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[04lut2021 09:47:27.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:overworld
+[04lut2021 09:47:27.842] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Starting JEI...
+[04lut2021 09:47:28.061] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient list...
+[04lut2021 09:47:28.063] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient list took 1.760 ms
+[04lut2021 09:47:28.063] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient filter...
+[04lut2021 09:47:28.262] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient filter took 199.3 ms
+[04lut2021 09:47:28.263] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building bookmarks...
+[04lut2021 09:47:28.263] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building bookmarks took 174.5 ?s
+[04lut2021 09:47:28.263] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building recipe registry...
+[04lut2021 09:47:29.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:the_nether
+[04lut2021 09:47:29.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:the_end
+[04lut2021 09:47:29.389] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building recipe registry took 1.126 s
+[04lut2021 09:47:29.389] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building runtime...
+[04lut2021 09:47:29.396] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building runtime took 7.299 ms
+[04lut2021 09:47:29.404] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Starting JEI took 1.562 s
+[04lut2021 09:47:29.619] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
+[04lut2021 09:50:20.517] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[04lut2021 09:50:20.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:overworld
+[04lut2021 09:50:20.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:the_nether
+[04lut2021 09:50:20.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:the_end
+[04lut2021 09:50:22.016] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[04lut2021 09:50:22.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:overworld
+[04lut2021 09:50:22.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:the_nether
+[04lut2021 09:50:22.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:the_end
+[04lut2021 09:50:30.610] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Gracz Mutant Snow Golem zosta³ zabity przez: Mutant Zombie
+[04lut2021 09:52:05.840] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2 advancements
+[04lut2021 09:52:11.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [umysmine: Zmieniono tryb gry na Tryb przetrwania]
+[04lut2021 09:52:11.986] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Zmieniono tryb gry na Tryb przetrwania
+[04lut2021 09:52:22.215] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[04lut2021 09:52:22.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:overworld
+[04lut2021 09:52:22.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:the_nether
+[04lut2021 09:52:22.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:the_end
+[04lut2021 09:53:03.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gracz umysmine zosta³ zastrzelony przez Mutant Skeleton
+[04lut2021 09:53:03.952] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Gracz umysmine zosta³ zastrzelony przez Mutant Skeleton
+[04lut2021 09:53:04.034] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 24 advancements
+[04lut2021 09:53:11.326] [Render thread/WARN] [net.minecraft.client.network.play.ClientPlayNetHandler/]: Unknown custom packet identifier: gravestone:default
+[04lut2021 09:53:11.607] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[04lut2021 09:53:11.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:overworld
+[04lut2021 09:53:11.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:the_nether
+[04lut2021 09:53:11.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:the_end
+[04lut2021 09:53:19.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gracz umysmine zosta³ zastrzelony przez Mutant Skeleton
+[04lut2021 09:53:19.104] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Gracz umysmine zosta³ zastrzelony przez Mutant Skeleton
+[04lut2021 09:53:26.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gracz umysmine zosta³ zastrzelony przez Mutant Skeleton
+[04lut2021 09:53:26.257] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Gracz umysmine zosta³ zastrzelony przez Mutant Skeleton
+[04lut2021 09:53:29.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [umysmine: Zmieniono tryb gry na Tryb kreatywny]
+[04lut2021 09:53:29.862] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Zmieniono tryb gry na Tryb kreatywny
+[04lut2021 09:54:34.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gracz umysmine dokona³ postêpu [Sheer, Absolute Ownage]
+[04lut2021 09:54:34.994] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Gracz umysmine dokona³ postêpu [Sheer, Absolute Ownage]
+[04lut2021 09:54:34.995] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 31 advancements
+[04lut2021 09:54:36.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gracz umysmine dokona³ postêpu [Firebug]
+[04lut2021 09:54:36.917] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Gracz umysmine dokona³ postêpu [Firebug]
+[04lut2021 09:54:36.966] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 32 advancements
+[04lut2021 09:54:39.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gracz umysmine dokona³ postêpu [Wyceluj]
+[04lut2021 09:54:39.985] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Gracz umysmine dokona³ postêpu [Wyceluj]
+[04lut2021 09:54:39.986] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 34 advancements
+[04lut2021 09:54:52.017] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[04lut2021 09:54:52.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:overworld
+[04lut2021 09:54:52.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:the_nether
+[04lut2021 09:54:52.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:the_end
+[04lut2021 09:55:22.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gracz umysmine dokona³ postêpu [£owca potworów]
+[04lut2021 09:55:22.748] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Gracz umysmine dokona³ postêpu [£owca potworów]
+[04lut2021 09:55:22.795] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 35 advancements
+[04lut2021 09:55:25.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gracz umysmine dokona³ postêpu [Ouster]
+[04lut2021 09:55:25.818] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Gracz umysmine dokona³ postêpu [Ouster]
+[04lut2021 09:55:25.868] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 42 advancements
+[04lut2021 09:55:27.900] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 44 advancements
+[04lut2021 09:56:29.767] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 45 advancements
+[04lut2021 09:56:32.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [umysmine: Zmieniono tryb gry na Tryb przetrwania]
+[04lut2021 09:56:32.252] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Zmieniono tryb gry na Tryb przetrwania
+[04lut2021 09:56:33.004] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 51 advancements
+[04lut2021 09:56:34.655] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 63 advancements
+[04lut2021 09:56:43.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gracz umysmine zosta³ zabity przez: Lord Skeleton
+[04lut2021 09:56:43.879] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Gracz umysmine zosta³ zabity przez: Lord Skeleton
+[04lut2021 09:57:11.417] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[04lut2021 09:57:11.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:overworld
+[04lut2021 09:57:11.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:the_nether
+[04lut2021 09:57:11.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:the_end
+[04lut2021 09:57:12.046] [Render thread/INFO] [STDOUT/]: [xaero.map.WorldMapSession:cleanup:44]: World map session finalized.
+[04lut2021 09:57:12.085] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: umysmine lost connection: Roz³¹czono
+[04lut2021 09:57:12.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gracz umysmine opuœci³ grê 
+[04lut2021 09:57:12.098] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[04lut2021 09:57:12.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[04lut2021 09:57:12.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[04lut2021 09:57:12.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[04lut2021 09:57:12.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:overworld
+[04lut2021 09:57:12.543] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Nowy œwiat (1)): All chunks are saved
+[04lut2021 09:57:12.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:the_nether
+[04lut2021 09:57:12.544] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04lut2021 09:57:12.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nowy œwiat]'/minecraft:the_end
+[04lut2021 09:57:12.546] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04lut2021 09:57:12.602] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Nowy œwiat (1)): All chunks are saved
+[04lut2021 09:57:12.727] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04lut2021 09:57:12.728] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04lut2021 09:57:13.687] [Thread-10/INFO] [STDOUT/]: [xaero.map.MapProcessor:updateWorldSynced:638]: World map cleaned normally!
+[04lut2021 10:00:45.833] [Netty Client IO #1/ERROR] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channels [mutantbeasts:main] rejected vanilla connections
+[04lut2021 10:13:46.963] [Render thread/INFO] [net.minecraft.client.gui.screen.ConnectingScreen/]: Connecting to dottyback.aternos.host., 55736
+[04lut2021 10:14:00.646] [Netty Client IO #4/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[04lut2021 10:14:01.040] [Render thread/INFO] [STDOUT/]: [xaero.map.WorldMapSession:init:38]: New world map session initialized!
+[04lut2021 10:14:01.101] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[04lut2021 10:14:01.185] [Render thread/WARN] [net.minecraft.client.util.ClientRecipeBook/]: Unknown recipe category: car:oil_mill/car:canola_oil
+[04lut2021 10:14:01.185] [Render thread/WARN] [net.minecraft.client.util.ClientRecipeBook/]: Unknown recipe category: car:blast_furnace/car:methanol
+[04lut2021 10:14:01.269] [Netty Client IO #4/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not deserialize minecraft:
+[04lut2021 10:14:01.270] [Netty Client IO #4/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not deserialize minecraft:
+[04lut2021 10:14:01.293] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Starting JEI...
+[04lut2021 10:14:01.419] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient list...
+[04lut2021 10:14:01.421] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient list took 1.821 ms
+[04lut2021 10:14:01.422] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient filter...
+[04lut2021 10:14:01.546] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient filter took 124.5 ms
+[04lut2021 10:14:01.546] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building bookmarks...
+[04lut2021 10:14:01.547] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building bookmarks took 293.5 ?s
+[04lut2021 10:14:01.547] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building recipe registry...
+[04lut2021 10:14:01.980] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building recipe registry took 432.7 ms
+[04lut2021 10:14:01.980] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building runtime...
+[04lut2021 10:14:01.986] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building runtime took 5.980 ms
+[04lut2021 10:14:01.993] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Starting JEI took 699.8 ms
+[04lut2021 10:14:14.091] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
+[04lut2021 10:14:37.853] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4 advancements
